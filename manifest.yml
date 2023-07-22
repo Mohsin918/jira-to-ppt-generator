@@ -1,0 +1,9 @@
+---
+applications:
+- name: jira-to-ppt
+  memory: 256M
+  instances: 1
+  host: replication-db-interface
+  command: python app.py
+  buildpack: python_buildpack
+  random-route: true
