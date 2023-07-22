@@ -52,3 +52,16 @@ username = your_jira_username
 password = your_jira_password
 
 Replace your_jira_server_url, your_jira_username, and your_jira_password with your JIRA server URL, username, and password, respectively.
+
+###Screenshots
+
+![one](https://github.com/Mohsin918/jira-to-ppt-generator/assets/58115232/d2296d12-ad01-4982-a666-f2f46c4d0332)
+
+![two](https://github.com/Mohsin918/jira-to-ppt-generator/assets/58115232/bfaabbfa-a178-4525-99fc-d1ab29838cae)
+
+
+![three](https://github.com/Mohsin918/jira-to-ppt-generator/assets/58115232/ecc2cbb9-1905-41cb-890b-6b128100342f)
+
+![four](https://github.com/Mohsin918/jira-to-ppt-generator/assets/58115232/f96bef72-36c7-491a-9c84-a634f30e8bd6)
+
+
