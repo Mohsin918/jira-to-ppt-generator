@@ -1,3 +1,11 @@
+# JIRA-TO-PPT-GENERATOR
+
+JIRA-TO-PPT is a Python script that uses the JIRA API to convert all issues that are in the "In Progress", "Blocked", or "Ready for Review" state to a PowerPoint presentation. The presentation is sorted by quarter, and each issue is represented by a slide that includes the issue's title, description, status, and assignee.
+
+The script is also built on a Flask web app that allows users to specify the JIRA project and the quarter that they want to generate the presentation for. The app then runs the script and generates the presentation, which can be downloaded by the user.
+
+This project is useful for teams that want to track the progress of their JIRA issues in a visual format. The PowerPoint presentation can be used to share the status of the issues with stakeholders or to track the progress of the team over time.
+
 # UseCase 1
 
 This script generates a PowerPoint presentation of the PI2023.2/RD5 Executive Summary from JIRA issues.
@@ -44,15 +52,3 @@ username = your_jira_username
 password = your_jira_password
 
 Replace your_jira_server_url, your_jira_username, and your_jira_password with your JIRA server URL, username, and password, respectively.
-In this case, server = https://jira.tools.sap
-
-To run the script, open a terminal in the folder containing the script and execute the following command:
-
-python UseCase2.py
-python UseCase1.py
-
-## To RUN UI
-
-cf login
-cf push jira-to-ppt
-https://jira-to-ppt.cfapps.eu10.hana.ondemand.com/
