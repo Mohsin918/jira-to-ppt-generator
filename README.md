@@ -8,7 +8,7 @@ This project is useful for teams that want to track the progress of their JIRA i
 
 # UseCase 1
 
-This script generates a PowerPoint presentation of the PI2023.2/RD5 Executive Summary from JIRA issues.
+This script generates a PowerPoint presentation from JIRA issues.
 
 ## Requirements
 
